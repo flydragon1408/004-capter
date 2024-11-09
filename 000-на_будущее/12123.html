@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ru"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .qwe{display:inline
+        .qwe {
+            display: inline;
         }
-        h1{
-            font-size: 24px;
-            text-align: center;
-            color: blue;
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: brown;
+        h1 {
+            width: 100vw;
+            height: 1000vh;
+            background-color: aqua;
+            color: cadetblue;
+            transition: 1s ;
         }
-        @media screen {width: 700hv; height: 100vh;
-            background-color: green;
-            color: content: '\e896';;
-            transition: all 1s ease;
+        @media screen and (max-width: 900px) {
+            h1 {
+                width: 100vw;
+                height: 100vh;
+                background-color: green;
+                color: white;
+                transition: 4s ;
+            }
+            h1::before {
+                content: '\e896';
+            }
         }
     </style>
 </head>
@@ -35,7 +39,7 @@
     Не они возвращайся оксмокс гор свой бросил подпоясал, деревни напоивший.
     Своего первую, подзаголовок гор свое единственное даже щеке меня семантика.
     Предложения агентство встретил, рот инициал ipsum они возвращайся назад рукописи!
-    Использовало семантика живет наш обеспечивает запятой имени выйти необходимыми правилами! </h1>
+    Использовало семантика живет наш обеспечивает запятой имени выйти необходимыми правилами!</h1>
     </div>
 </body>
 </html>
